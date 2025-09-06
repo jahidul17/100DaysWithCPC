@@ -7,6 +7,71 @@
             "name": "Ruhul",
             "age": 28
         }
-    ]
+    ],
+    
+    "students": [
+        {
+            "name": "Zahidul Islam",
+            "age": 22
+        }
+        ,
+        {
+            "name": "Anisul Islam",
+            "age": 24
+        },
+        {
+            "name": "Rafsan",
+            "age": 23
+        }
+    ],
+    "teachers": [
+        {
+            "name": "Mr. Karim",
+            "subject": "Mathematics"
+        },
+        {
+            "name": "Ms. Rahman",
+            "subject": "Science"
+        }
+    ],
+    "cgpa": {
+        "Zahidul Islam": 3.75,
+        "Anisul Islam": 3.60,
+        "Rafsan": 3.80
+    },
+    "school": {
+        "name": "ABC High School",
+        "location": "Dhaka",
+        "established": 1995
+    },
+    "languages": ["English", "Bengali", "Spanish"],
+    "isGraduated": false,
+    "totalStudents": 1500,
+    "totalTeachers": 75,
+    "principal": {
+        "name": "Dr. Ahmed",
+        "age": 50,
+        "experience": 25
+    },
+    "campus": {
+        "buildings": 10,
+        "library": true,
+        "sportsComplex": true
+    },
+    "events": [
+        {
+            "name": "Science Fair",
+            "date": "2023-11-15"
+        },
+        {
+            "name": "Sports Day",
+            "date": "2023-12-05"
+        }
+    ],
+    "clubs": ["Drama Club", "Debate Club", "Robotics Club"],
+    "canteen": {
+        "menu": ["Rice", "Fish Curry", "Vegetables", "Dessert"],
+        "openingHours": "8:00 AM - 5:00 PM"
+    }
 }
 
