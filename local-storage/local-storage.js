@@ -7,24 +7,31 @@
 // localStorage store data as key value pair - string
 
 // setItem(key, value)
-// localStorage.setItem("userName", "anisul islam");
+// localStorage.setItem("userName", "Zahidul islam");
 // localStorage.setItem("password", "0123456789");
 
 // getItem(key)
 // const userName = localStorage.getItem("userName");
 // const userPassword = localStorage.getItem("password");
+
+
 // console.log(userName, userPassword);
+// document.writeln(`User Name: ${userName} <br> Password: ${userPassword} <br>`);
+
 
 // removeItem(key)
 // localStorage.removeItem("userName");
 // localStorage.removeItem("password");
 
+
+
 // setItem(key, value)
 // const countries = ["Australia", "Bangladesh", "Nepal"];
-// localStorage.setItem("countries", JSON.stringify(countries));
+// var country=localStorage.setItem("countries", JSON.stringify(countries));
+// console.log(country);
 
-// getItem(key)
-const countriesList = JSON.parse(localStorage.getItem("countries"));
-console.log(countriesList);
+// // getItem(key)
+// const countriesList = JSON.parse(localStorage.getItem("countries"));
+// console.log(countriesList);
 
 // localStorage.clear();
