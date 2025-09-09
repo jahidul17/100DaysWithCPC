@@ -12,13 +12,13 @@
 // sessionStorage store data as key value pair - string
 
 // setItem(key, value)
-sessionStorage.setItem("userName", "Zahidul islam");
-sessionStorage.setItem("password", "0123456789");
+// sessionStorage.setItem("userName", "Zahidul islam");
+// sessionStorage.setItem("password", "01234");
 
 
-// getItem(key)
-const userName = sessionStorage.getItem("userName");
-const userPassword = sessionStorage.getItem("password");
+// // getItem(key)
+// const userName = sessionStorage.getItem("userName");
+// const userPassword = sessionStorage.getItem("password");
 console.log(userName, userPassword);
 document.writeln(`User Name: ${userName} <br> Password: ${userPassword} <br>`);
 
