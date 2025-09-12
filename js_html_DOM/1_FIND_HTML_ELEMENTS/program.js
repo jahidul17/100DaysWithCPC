@@ -19,7 +19,7 @@ console.log(h1)
 
 
 // finding element by tagName
-var p = document.getElementsByClassName("para")[0];
+var p = document.getElementsByClassName("para")[1];
 console.log(p)
 
 
@@ -36,8 +36,10 @@ var q3 = document.querySelector(".para");
 console.log(q3)
 
 var list = document.querySelector(".my-div li");
+list = list.innerHTML="Hello World";
 console.log(list)
 
 // finding element by querySelectorAll
 var q4 = document.querySelectorAll(".para");
 console.log(q4)
+
