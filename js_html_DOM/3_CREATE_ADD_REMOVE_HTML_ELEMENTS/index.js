@@ -2,7 +2,7 @@
 
 // creating html element and adding to a div
 var firstDiv = document.querySelector("#first-div");
-console.log(firstDiv)
+// console.log(firstDiv)
 
 var heading3 = document.createElement("h3");
 var text = document.createTextNode("This is heading 3");
