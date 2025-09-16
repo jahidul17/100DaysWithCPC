@@ -118,6 +118,7 @@ for(var i=0;i<len2;i++){
         var text=this.innerHTML;
         console.log(text + " is clicked");
         audioPlay(text);
+        playAnimation(text)
     });
 }
 
@@ -138,4 +139,15 @@ function audioPlay(text){
                 break;
         }
 
+}
+
+
+function playAnimation(mytext){
+    console.log(mytext);
+    var selectButton=document.querySelector("." + mytext);
+    selectButton.classList.add("animi");
+
+    setTimeout(function(){
+        selectButton.classList.remove("animi")
+    }, 1000);
 }

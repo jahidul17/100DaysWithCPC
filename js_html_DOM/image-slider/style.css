@@ -5,3 +5,15 @@
     text-align: center;
     padding: 10px;
 }
+
+
+button{
+    width: 100px;
+}
+
+.animi{
+    box-shadow: 0 15px 18px 0 tomato;
+    opacity: 0.5;
+    
+}
+
