@@ -151,3 +151,18 @@ function playAnimation(mytext){
         selectButton.classList.remove("animi")
     }, 1000);
 }
+
+
+document.addEventListener("keypress",function(event){
+    var text=event.key;
+    document.querySelector("h4").innerHTML="You have pressed = "+text;
+})
+
+var char_count=0
+document.addEventListener("keypress",function(event){
+    char_count++;
+    document.querySelector("h5").innerHTML="Total charecter : "+ char_count;
+})
+
+
+
