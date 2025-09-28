@@ -1,0 +1,9 @@
+#outer{
+    padding: 30px;
+    background-color: lightblue;
+}
+#inner{
+    padding: 10px;
+    margin: 10px;
+    background-color: lightcoral;
+}
